@@ -5,37 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formularios</title>
+    <title>Formulario</title>
 </head>
 
 <body>
     <form action="">
         <label for="nombre ">
-            <span>¿cual es tu nombre?</span>
+            <span>¿cuales son tus nombres y apellidos?</span>
             <input type="text" name="nombre" id="nombre" autocomplete="name" required />
         </label>
         <label for="correo electronico">
-            <span>¿cual es tu correo electronico?</span>
+            <span>¿cual es tu e-mail?</span>
             <input type="email" name="correo" id="correo electronico" autocomplete="email" required />
         </label>
         <label for="telefono">
-            <span>¿cual es tu telefono?</span>
+            <span>¿cual es tu Numero de telefono?</span>
             <input type="text" id="telefono" />
         </label>
 
         <label form="ciudad">
-            <span>¿cual es tu cuidad? </span>
+            <span>¿cual es tu cuidad de nacimiento? </span>
             <input list="text" name="cuidad" id="ciudad" autocomplete="date" required />
 
         </label>
-        <span>estas son las ciudades</span>
+        <span>Selecciona tu ciudad</span>
         <input list="ciudades"/>
         <datalist id="ciudades">
             <option value="ibague"></option>
             <option value="armenia"></option>
             <option value="villavicencio"></option>
             <option value="cucuta"></option>
+            <option value="Huila"></option>
+            <option value="San Andres"></option>
+            <option value="Cartagena"></option>
+            <option value="Santa martha"></option>
+            <option value="Amazonas"></option>
             <option value="bogota"></option>
+            <option value="Buacaramanga"></option>
+
         </datalist>
 
         <span> ¿estas estudiando?</span>
@@ -55,7 +62,7 @@
 
 
             <label for="dirrecion">
-                <span>cual es tu dirrecion</span>
+                <span>cual es tu dirrecion de residencia </span>
                 <input type="address" name="direccion" id="direccion" autocomplete="address-level1">
 
             </label>
